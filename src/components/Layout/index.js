@@ -15,7 +15,7 @@ const Layout = () => {
                 <h3>My name is Erin,</h3>
                 <h3>I'm your next <a><ch>Full Stack Developer</ch></a> <span className='hov-wrap'><FontAwesomeIcon icon={faArrowLeft} color='#cdcdcd'></FontAwesomeIcon> Hover over me!</span></h3>
 
-                <a class='contact-me' to='/portfolio/contact'>Contact Me</a>
+                <Link class='contact-me' to='/portfolio/contact'>Contact Me</Link>
 
                 <span className='long orange left'></span>
                 <span className='long orange right'></span>
