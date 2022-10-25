@@ -66,7 +66,7 @@
         }
     }
 
-    button.contact-me {
+    a.contact-me {
         position: absolute;
         left: 15%;
         margin-top: 5%;
@@ -79,6 +79,10 @@
         border: 1px solid #cdcdcd;
         cursor: pointer;
         transition: 0.4s;
+
+        text-decoration: none;
+        text-align: center;
+        line-height: 8vh;
 
         &:hover {
             color: #FCA311;
@@ -177,5 +181,16 @@
 
         font-weight: 900;
         font-size: 3em;
+    }
+
+    .temp {
+        position: absolute;
+        top: 45%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        color: #cdcdcd;
+        font-family: 'QuickSand';
+        font-weight: 900;
+
     }
 }

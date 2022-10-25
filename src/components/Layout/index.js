@@ -2,7 +2,7 @@ import './index.scss';
 import Sidebar from '../Sidebar';
 import { Outlet } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Avatar from '../../assets/images/me.png';
 
 
@@ -15,7 +15,7 @@ const Layout = () => {
                 <h3>My name is Erin,</h3>
                 <h3>I'm your next <a><ch>Full Stack Developer</ch></a> <span className='hov-wrap'><FontAwesomeIcon icon={faArrowLeft} color='#cdcdcd'></FontAwesomeIcon> Hover over me!</span></h3>
 
-                <button class='contact-me'>Contact Me</button>
+                <a class='contact-me' href='/portfolio/contact'>Contact Me</a>
 
                 <span className='long orange left'></span>
                 <span className='long orange right'></span>
@@ -30,6 +30,8 @@ const Layout = () => {
                     <span className='short white middle'></span>
                     <span className='short white bottom'></span>
                 </span>
+
+                <span className='temp'>This picture is only temporary! <FontAwesomeIcon icon={faArrowRight} color='#cdcdcd'></FontAwesomeIcon></span>
             </div>
         </div>
     )
