@@ -8,13 +8,13 @@ import LogoErin from '../../assets/images/erin.png';
 
 const Sidebar = () => (
     <div class='nav-bar'>
-        <Link class='logo' to='/'>
+        <Link class='logo' to='/portfolio'>
             <img src={LogoE} alt='logo' />
             <img class='sub-logo' src={LogoErin} alt='erin' />
         </Link>
 
         <nav>
-            <NavLink exact='true' activeclassname='active' to='/'>
+            <NavLink exact='true' activeclassname='active' to='/portfolio'>
                 <FontAwesomeIcon icon={faHome} color='#4d4d4e'></FontAwesomeIcon>
             </NavLink>
             <NavLink exact='true' activeclassname='active' to='/about' className='about-link'>
