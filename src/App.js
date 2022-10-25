@@ -11,9 +11,9 @@ function App() {
   }); 
   return (
     <Routes>
-      <Route path='/portfolio' element={ <Layout /> } />
-      <Route path='/about' element={ <About /> } />
-      <Route path='/contact' element={ <Contact /> } />
+      <Route path='/portfolio/' element={ <Layout /> } />
+      <Route path='/portfolio/about' element={ <About /> } />
+      <Route path='/portfolio/contact' element={ <Contact /> } />
     </Routes>
   );
 }
