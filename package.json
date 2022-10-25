@@ -1,6 +1,6 @@
 {
   "homepage": "https://erinnyx.github.io/portfolio",
-  "name": "erin-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
