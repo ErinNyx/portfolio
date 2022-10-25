@@ -1,0 +1,22 @@
+$main-col: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'BarlowCondensed';
+  src: url('./assets/fonts/BarlowCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./assets/fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+input, textarea {
+  font-family: 'NotoSans-Regular';
+}
