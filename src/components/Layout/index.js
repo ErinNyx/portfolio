@@ -17,18 +17,19 @@ const Layout = () => {
 
                 <button class='contact-me'>Contact Me</button>
 
-                <span className='long white'></span>
-                <span className='short white top'></span>
-                <span className='short white middle'></span>
-                <span className='short white bottom'></span>
                 <span className='long orange left'></span>
                 <span className='long orange right'></span>
 
                 <span className='big-avatar'>
                     <img src={Avatar}></img>
                 </span>
-
-                <p className='porty'>Portfolio</p>
+                <span className='title-wrapper'>
+                    <p className='porty'>Portfolio</p>
+                    <span className='long white'></span>
+                    <span className='short white top'></span>
+                    <span className='short white middle'></span>
+                    <span className='short white bottom'></span>
+                </span>
             </div>
         </div>
     )
