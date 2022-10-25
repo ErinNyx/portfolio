@@ -9,7 +9,7 @@ const About = () => {
                 <h1 className='title'>About Me</h1>
                 <div className='main'>
                     Hi! My name is Erin (She/Her, transgender) and I'm a 21 year old college student in the Computer Science Major at the University of North Carolina at Greensboro. <br /><br />
-                    My interests include Software Engineering and Web Development though I'm also considering pursuing AI Development. In that sort of field
+                    My interests include Software Engineering and Web Development though I'm also considering pursuing AI Development. In that field
                     I'm interested in the kind of research that leads to video tampering detection and data analytics via node clustering. <br /><br />
 
                     I live in Greensboro, NC, in a little apartment on the outskirts of the city. I have two lovely cats named Muffin and Nyx that I love dearly.
@@ -17,8 +17,7 @@ const About = () => {
 
                     As for projects, you can see them on my Github. My current passion project is called Kottoko and it's based on NodeJS with MongoDB as a database.  
                     Kottoko is a Japanese learning app designed to simulate a University learning style. I disagree with many other language apps for Japanese that either 
-                    put that kind of experience behind a paywall or omit it entirely. Kottoko's front end is entirely in HTML, CSS, and JS with no framework supporting it. <br />
-                    I think that's going to change soon, though. I learned REACT for this website and once you learn REACT you never go back lol <br />
+                    put that kind of experience behind a paywall or omit it entirely. Kottoko's front end is entirely in HTML, CSS, and JS with no framework supporting it, which may change soon. I learned REACT for this portfolio website and once you learn REACT you never go back! <br />
                     In the past I've worked on other projects in Java. On my github you can also see that I have a Java recreation of Mario that I never finished - 
                     I was just picking up the project to learn the language.<br /><br />
 
