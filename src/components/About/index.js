@@ -8,7 +8,7 @@ const About = () => {
             <div className='page'>
                 <h1 className='title'>About Me</h1>
                 <div className='main'>
-                    Hi! My name is Erin (She/Her, transgender) and I'm a 21 year old college student in the Computer Science Major at the University of North Carolina at Greensboro. <br /><br />
+                    Hi! My name is Erin (She/Her), though, my legal name is David. and I'm a 21 year old college student in the Computer Science Major at the University of North Carolina at Greensboro. <br /><br />
                     My interests include Software Engineering and Web Development though I'm also considering pursuing AI Development. In that field
                     I'm interested in the kind of research that leads to video tampering detection and data analytics via node clustering. <br /><br />
 
