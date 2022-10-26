@@ -15,8 +15,16 @@ const Contact = () => {
             message: refForm.current.message.value
         }, 'Peqg9uYy73BCLHSBU').then(
             () => {
+                const form = document.querySelector('#contact-form');
+                
                 alert('Message sent!');
-                window.location.reload(false);
+                // Github Pages is weird with reloading and I can't quite understand why
+                // I think it's because I'm routing with react instead of what they expected so there's a mismatch between the route
+                // I'm on and the route that gh-pages says I'm on
+                // Instead, I will work around this issue by just clearing the fields
+                //window.location.reload(false);
+
+                form.reset();
             },
             (e) => {
                 alert('Message failed, please try again later or if the issue continues please directly contact me with my linkedin on the left. Thanks!');
